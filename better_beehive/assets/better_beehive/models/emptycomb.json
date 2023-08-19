@@ -1,0 +1,102 @@
+{
+	"editor": {
+		"collapsedPaths": "Root/hive/honeycombs/honeycomb6,Root/hivebottom/hingeright,Root/hivebottom/hingeleft,Root/hivebottom/hivetop,Root/hivebottom/honeycombs/honeycomb3,Root/hivebottom/honeycombs/honeycomb4,Root/hivebottom/hivefront,Root/hivebottom/honeycombs/honeycomb5,Root/hivebottom/honeycombs/honeycomb6,Root/hivebottom/honeycombs/honeycomb1,Root/hive/honeycombs/honeycomb1,Root/honeycomb1,Root/hivebottom/honeycombs/honeycomb2,Root/hive/honeycombs/honeycomb3,Root/hive/honeycombs/honeycomb2,Root/Bienenstock,Root/hive/honeycombs/honeycomb5,Root/hive/honeycombs/honeycomb4",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"honeycomb": "/Users/Nutzer/Documents/Vintage Story Mod Projekte/models/Beehive/assets/better beehive/honeycomb",
+		"wood": "/Users/Nutzer/Documents/Vintage Story Mod Projekte/models/Beehive/assets/better beehive/wood"
+	},
+	"elements": [
+		{
+			"name": "honeycomb1",
+			"from": [ 2.0, 3.0, 7.0 ],
+			"to": [ 2.0, 3.0, 7.0 ],
+			"rotationOrigin": [ 2.0, 3.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "leftstick",
+					"from": [ 0.0, -4.0, 0.0 ],
+					"to": [ 1.0, 9.0, 1.0 ],
+					"rotationOrigin": [ 0.0, -4.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,2,2,1] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,2,2,1] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "rightstick",
+					"from": [ 11.0, -4.0, 0.0 ],
+					"to": [ 12.0, 9.0, 1.0 ],
+					"rotationOrigin": [ 11.0, -4.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,2,2,1] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 13.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "bottomstick",
+					"from": [ 1.0, -4.0, 0.0 ],
+					"to": [ 11.0, -3.0, 1.0 ],
+					"rotationOrigin": [ 1.0, -4.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "topstick",
+					"from": [ 1.0, 8.0, 0.0 ],
+					"to": [ 11.0, 9.0, 1.0 ],
+					"rotationOrigin": [ 1.0, 8.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ] },
+						"east": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,2,2,1] },
+						"south": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+						"west": { "texture": "#wood", "uv": [ 0.0, 0.0, 1.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,2,2] },
+						"up": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [2,2,2,2] },
+						"down": { "texture": "#wood", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				},
+				{
+					"name": "comb",
+					"from": [ 1.0, -3.0, 0.0 ],
+					"to": [ 11.0, 8.0, 1.0 ],
+					"rotationOrigin": [ 1.0, -3.0, 0.0 ],
+					"faces": {
+						"north": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 10.0, 11.0 ] },
+						"east": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 1.0, 11.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"south": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 10.0, 11.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"west": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 1.0, 11.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"up": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] },
+						"down": { "texture": "#honeycomb", "uv": [ 0.0, 0.0, 10.0, 1.0 ], "windMode": [-1,-1,-1,-1], "windData": [1,1,1,1] }
+					}
+				}
+			]
+		}
+	]}

@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "better_beehive",
+    "name": "Better Beehive Mod",
+    "authors": [
+        "Timmyew"
+    ],
+    "description": "Add a new better beehive. \n Now you don't must destroy the new hive, to get tasty honey. :)'",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}
